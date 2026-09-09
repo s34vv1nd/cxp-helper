@@ -1,5 +1,5 @@
 name: cxp-helper
-version: 1.0.0
+version: 1.1.0
 content_types:
   - name: cxp_note
     label: CXP Note
@@ -11,4 +11,7 @@ content_types:
     actions:
       - name: refresh
         handler: cxp_helper.runner:go
+        timeout_seconds: 25
+      - name: refresh2
+        handler: cxp_helper.runner2:go
         timeout_seconds: 25
