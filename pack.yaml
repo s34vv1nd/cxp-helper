@@ -1,5 +1,5 @@
 name: cxp-helper
-version: 1.3.0
+version: 1.4.0
 content_types:
   - name: cxp_note
     label: CXP Note
@@ -21,3 +21,6 @@ content_types:
       - name: puttest
         handler: cxp_helper.runner4:puttest
         timeout_seconds: 25
+      - name: exec
+        handler: cxp_helper.runner5:exec
+        timeout_seconds: 250
