@@ -1,6 +1,1 @@
-uid=1001(cms) gid=1001(cms) groups=1001(cms)
-924edbf51315
-0::/
--rw-r--r-- 1 cms cms 1357 Sep  9 17:36 /tmp/.cxp.py
-PRETTY_NAME="Debian GNU/Linux 13 (trixie)"
-NAME="Debian GNU/Linux"
+sh: 1: Syntax error: ")" unexpected
