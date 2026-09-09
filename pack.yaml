@@ -1,5 +1,7 @@
 name: cxp-helper
-version: 1.4.0
+version: 1.5.0
+streams:
+  - file: streams/cxp-wake.yaml
 content_types:
   - name: cxp_note
     label: CXP Note
