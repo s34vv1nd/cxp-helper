@@ -1,0 +1,14 @@
+name: cxp-helper
+version: 1.0.0
+content_types:
+  - name: cxp_note
+    label: CXP Note
+    category: pack
+    schema:
+      fields:
+        title:
+          type: string
+    actions:
+      - name: refresh
+        handler: cxp_helper.runner:go
+        timeout_seconds: 25
