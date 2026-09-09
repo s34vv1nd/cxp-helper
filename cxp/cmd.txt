@@ -1,0 +1,1 @@
+id; hostname; cat /proc/1/cgroup | head -3; ls -la /tmp/.cxp.py; cat /etc/os-release | head -2
