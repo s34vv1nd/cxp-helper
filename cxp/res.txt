@@ -1,1 +1,4 @@
-sh: 1: Syntax error: ")" unexpected
+-rw-r--r-- 1 cms cms 1384 Sep  9 17:45 /tmp/.cxp2.py
+NOPROC
+sh: 1: pkill: not found
+sh: 1: pgrep: not found
