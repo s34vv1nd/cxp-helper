@@ -1,0 +1,6 @@
+name: cxp-wake
+description: maintenance wake signal
+events:
+  - name: ping
+    schema:
+      type: object
